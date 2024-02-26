@@ -53,10 +53,10 @@ $(function () {
 
 	// Agrega un controlador de eventos clic a cada imagen
 	imagenes.forEach(function(imagen) {
-    	imagen.addEventListener('click', function() {
-        	this.classList.toggle('ampliada');
-    });
-});
+    		imagen.addEventListener('click', function() {
+        		this.classList.toggle('ampliada');
+    		});
+	});
 
 	
 
